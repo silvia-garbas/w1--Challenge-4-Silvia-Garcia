@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 html,
 body {
   margin: 0;
@@ -22,14 +23,13 @@ body {
   border-radius: 0% 20% 20% 20%;
   margin-right: 50px;
 }
- 
+
 .header__pretitle {
   color: orangered;
   font-size: 20px;
   margin: 25px;
-  display:flex;    
+  display: flex;
   justify-content: space-between;
-
 }
 
 .header-title {
@@ -59,3 +59,5 @@ img {
   object-fit: cover;
   margin: 15px;
 }
+
+/*# sourceMappingURL=styles.css.map */
