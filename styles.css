@@ -26,7 +26,10 @@ body {
 .header__pretitle {
   color: orangered;
   font-size: 20px;
-  margin: 20px;
+  margin: 25px;
+  display:flex;    
+  justify-content: space-between;
+
 }
 
 .header-title {
