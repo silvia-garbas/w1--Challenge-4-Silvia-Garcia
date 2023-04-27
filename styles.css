@@ -1,0 +1,18 @@
+*{
+  box-sizing: box-border;
+}
+html, body {
+height: 100%;
+  margin: 0;
+}
+
+body{
+font-family: 'Lora', serif;
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Space Mono', monospace;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
