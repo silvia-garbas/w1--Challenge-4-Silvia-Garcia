@@ -1,18 +1,53 @@
-*{
-  box-sizing: box-border;
+* {
+  box-sizing: border-box;
 }
-html, body {
-height: 100%;
+html,
+body {
   margin: 0;
 }
 
-body{
-font-family: 'Lora', serif;
-font-family: 'Nanum Gothic', sans-serif;
-font-family: 'Space Mono', monospace;
+body {
+  font-family: "Lora", serif;
+  font-family: "Nanum Gothic", sans-serif;
+  font-family: "Space Mono", monospace;
 }
+
+.button__view-all {
+  color: white;
+  width: 150px;
+  height: 60px;
+  background-color: orangered;
+  border: none;
+  font-size: 20px;
+  border-radius: 0% 20% 20% 20%;
+}
+
+.header__pretitle {
+  color: orangered;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.header-title {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
 .app-container {
   display: flex;
   flex-direction: column;
   height: 100%;
+}
+
+.images {
+  display: flex;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+  border-radius: 20%;
+  object-fit: cover;
+  margin: 16px;
 }
